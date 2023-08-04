@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-var dog:[Dog] = [
+var dogs:[Dog] = [
     Dog(title: "The Shiba Inu (柴犬, Japanese: [ɕiba inɯ])", headline: "The Shiba Inu (柴犬, Japanese: [ɕiba inɯ]) is a breed of hunting dog from Japan. A small-to-medium breed, it is the smallest of the six original and distinct spitz breeds of dog native to Japan.[1] Its name literally translates to brushwood dog, as it is used to flush game.A small, alert, and agile dog that copes very well with mountainous terrain and hiking trails, the Shiba Inu was originally bred for hunting. It looks similar to other Japanese dog breeds such as the Akita Inu or Hokkaido, but the Shiba Inu is a different breed with a distinct bloodline, temperament, and smaller size than other Japanese dog breeds.", dogEra: "19th century", summary: ["19th century","mountainous areas of the Chūbu region","43"],
         description:"""
              The Shiba Inu has been identified as a basal breed that predates the emergence of the modern breeds in the 19th century. Dogs with a similar appearance to the Shiba Inu were represented in dogū made during the prehistoric Jōmon period of Japanese history.

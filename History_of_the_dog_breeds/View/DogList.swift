@@ -11,21 +11,21 @@ struct DogList: View {
     var body: some View {
         
         NavigationView{
-            List(dog) { dog in
+            List(dogs) { dog in
                 
                 NavigationLink{
                     DogDescriptionCard(dog: dog)
                 } label: {
                 DogRow(dog: dog)
                 }
-                .navigationTitle(" Dog Breeds   ")
+                .navigationTitle(" Dog Breeds 🐶 ")
             }
         }
     }
 }
 
-struct BattleList_Previews: PreviewProvider {
+struct DogList_Previews: PreviewProvider {
     static var previews: some View {
-        BattleList()
+       DogList()
     }
 }

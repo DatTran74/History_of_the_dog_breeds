@@ -17,6 +17,12 @@
 		0301EE572A7CAE55001E43C2 /* DogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE562A7CAE55001E43C2 /* DogData.swift */; };
 		0301EE592A7CB6A4001E43C2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE582A7CB6A4001E43C2 /* MapView.swift */; };
 		0301EE5E2A7CD12B001E43C2 /* DogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE5D2A7CD12B001E43C2 /* DogList.swift */; };
+		0301EE602A7CD601001E43C2 /* DogRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE5F2A7CD601001E43C2 /* DogRow.swift */; };
+		0301EE622A7CD6E2001E43C2 /* DogDescriptionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE612A7CD6E2001E43C2 /* DogDescriptionCard.swift */; };
+		0301EE642A7CDC7C001E43C2 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE632A7CDC7C001E43C2 /* SummaryView.swift */; };
+		0301EE662A7CDED3001E43C2 /* DogHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE652A7CDED3001E43C2 /* DogHeaderView.swift */; };
+		0301EE682A7CE07F001E43C2 /* FactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE672A7CE07F001E43C2 /* FactView.swift */; };
+		0301EE6A2A7CE4A0001E43C2 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE692A7CE4A0001E43C2 /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		0301EE562A7CAE55001E43C2 /* DogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogData.swift; sourceTree = "<group>"; };
 		0301EE582A7CB6A4001E43C2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0301EE5D2A7CD12B001E43C2 /* DogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogList.swift; sourceTree = "<group>"; };
+		0301EE5F2A7CD601001E43C2 /* DogRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogRow.swift; sourceTree = "<group>"; };
+		0301EE612A7CD6E2001E43C2 /* DogDescriptionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDescriptionCard.swift; sourceTree = "<group>"; };
+		0301EE632A7CDC7C001E43C2 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		0301EE652A7CDED3001E43C2 /* DogHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogHeaderView.swift; sourceTree = "<group>"; };
+		0301EE672A7CE07F001E43C2 /* FactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactView.swift; sourceTree = "<group>"; };
+		0301EE692A7CE4A0001E43C2 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +116,15 @@
 			isa = PBXGroup;
 			children = (
 				0301EE582A7CB6A4001E43C2 /* MapView.swift */,
+				0301EE5F2A7CD601001E43C2 /* DogRow.swift */,
 				0301EE3F2A7CA941001E43C2 /* ContentView.swift */,
-				0301EE412A7CA942001E43C2 /* Assets.xcassets */,
 				0301EE5D2A7CD12B001E43C2 /* DogList.swift */,
+				0301EE612A7CD6E2001E43C2 /* DogDescriptionCard.swift */,
+				0301EE632A7CDC7C001E43C2 /* SummaryView.swift */,
+				0301EE652A7CDED3001E43C2 /* DogHeaderView.swift */,
+				0301EE672A7CE07F001E43C2 /* FactView.swift */,
+				0301EE412A7CA942001E43C2 /* Assets.xcassets */,
+				0301EE692A7CE4A0001E43C2 /* DescriptionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,14 +199,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0301EE662A7CDED3001E43C2 /* DogHeaderView.swift in Sources */,
+				0301EE6A2A7CE4A0001E43C2 /* DescriptionView.swift in Sources */,
 				0301EE592A7CB6A4001E43C2 /* MapView.swift in Sources */,
+				0301EE602A7CD601001E43C2 /* DogRow.swift in Sources */,
 				0301EE402A7CA941001E43C2 /* ContentView.swift in Sources */,
 				0301EE512A7CAD85001E43C2 /* WelcomeView.swift in Sources */,
 				0301EE532A7CAE0D001E43C2 /* WelcomeCard.swift in Sources */,
 				0301EE552A7CAE48001E43C2 /* Dog.swift in Sources */,
 				0301EE572A7CAE55001E43C2 /* DogData.swift in Sources */,
+				0301EE622A7CD6E2001E43C2 /* DogDescriptionCard.swift in Sources */,
+				0301EE682A7CE07F001E43C2 /* FactView.swift in Sources */,
 				0301EE5E2A7CD12B001E43C2 /* DogList.swift in Sources */,
 				0301EE3E2A7CA941001E43C2 /* History_of_the_dog_breedsApp.swift in Sources */,
+				0301EE642A7CDC7C001E43C2 /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
