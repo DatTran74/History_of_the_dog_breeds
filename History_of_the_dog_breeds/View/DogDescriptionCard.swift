@@ -63,8 +63,7 @@ struct DogDescriptionCard: View {
 
         }
         .navigationTitle(dog.title)
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationViewStyle(StackNavigationViewStyle())
+        
     }
 }
 struct DogDescriptionCard_Previews: PreviewProvider {

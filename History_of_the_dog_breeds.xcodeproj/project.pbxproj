@@ -23,6 +23,7 @@
 		0301EE662A7CDED3001E43C2 /* DogHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE652A7CDED3001E43C2 /* DogHeaderView.swift */; };
 		0301EE682A7CE07F001E43C2 /* FactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE672A7CE07F001E43C2 /* FactView.swift */; };
 		0301EE6A2A7CE4A0001E43C2 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0301EE692A7CE4A0001E43C2 /* DescriptionView.swift */; };
+		03A6910B2A7E0A1A009712AD /* DogIntroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A6910A2A7E0A1A009712AD /* DogIntroCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		0301EE652A7CDED3001E43C2 /* DogHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogHeaderView.swift; sourceTree = "<group>"; };
 		0301EE672A7CE07F001E43C2 /* FactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactView.swift; sourceTree = "<group>"; };
 		0301EE692A7CE4A0001E43C2 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		03A6910A2A7E0A1A009712AD /* DogIntroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogIntroCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				0301EE502A7CAD85001E43C2 /* WelcomeView.swift */,
+				03A6910A2A7E0A1A009712AD /* DogIntroCard.swift */,
 				0301EE522A7CAE0D001E43C2 /* WelcomeCard.swift */,
 			);
 			path = Welcome;
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0301EE662A7CDED3001E43C2 /* DogHeaderView.swift in Sources */,
+				03A6910B2A7E0A1A009712AD /* DogIntroCard.swift in Sources */,
 				0301EE6A2A7CE4A0001E43C2 /* DescriptionView.swift in Sources */,
 				0301EE592A7CB6A4001E43C2 /* MapView.swift in Sources */,
 				0301EE602A7CD601001E43C2 /* DogRow.swift in Sources */,
@@ -334,11 +338,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = History_of_the_dog_breeds/History_of_the_dog_breeds.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"History_of_the_dog_breeds/Preview Content\"";
 				DEVELOPMENT_TEAM = MHNKN74222;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -357,6 +363,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.dat.History-of-the-dog-breeds";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = dat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -372,11 +379,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = History_of_the_dog_breeds/History_of_the_dog_breeds.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"History_of_the_dog_breeds/Preview Content\"";
 				DEVELOPMENT_TEAM = MHNKN74222;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -395,6 +404,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.dat.History-of-the-dog-breeds";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = dat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";

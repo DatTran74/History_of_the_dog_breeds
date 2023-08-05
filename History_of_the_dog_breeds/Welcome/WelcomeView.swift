@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    @State var isWelcomeActive: Bool = true
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            if isWelcomeActive {
+                WelcomeCard(active: $isWelcomeActive)
+            } else {
+                DogList()
+            }
+        }
     }
 }
 
